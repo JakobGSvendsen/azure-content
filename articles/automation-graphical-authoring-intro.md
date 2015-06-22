@@ -269,6 +269,7 @@ Each input parameter is defined by the properties in the following table.
 | Mandatory | Specifies whether a value must be provided for the parameter.  The runbook cannot be started if you do not provide a value for each mandatory parameter that does not have a default value defined. |
 | Default Value | Specifies what value is used for the parameter if one is not provided.  This can either be Null or a specific value. |
 
+Use a variable by the same of the input in "PowerShell Expression" input of an activitiy to receive the inputs sent to runbook. For example StringParam input will be in $StringParam.
 
 ### Runbook output
 
