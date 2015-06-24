@@ -269,7 +269,7 @@ Each input parameter is defined by the properties in the following table.
 | Mandatory | Specifies whether a value must be provided for the parameter.  The runbook cannot be started if you do not provide a value for each mandatory parameter that does not have a default value defined. |
 | Default Value | Specifies what value is used for the parameter if one is not provided.  This can either be Null or a specific value. |
 
-The input can be accessed in an activity by reffering to a variable by using "PowerShell Expression" as input and using the name of the input, for example $StringParam or $IntString.
+An input parameter can be accessed in an activity by using a PowerShell Expression data source for a parameter value. Use the name of the input variable for the expression. For example, if you specified StringParam for the name of the input variable, then specify $StringParam for the expression.
 
 ### Runbook output
 
