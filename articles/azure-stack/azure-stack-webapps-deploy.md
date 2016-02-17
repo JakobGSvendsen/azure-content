@@ -101,7 +101,7 @@ To install Azure Stack Web apps there are a few items that you will need.  Those
 
 - Go to the following path and ensure 
 \\\\sofs\Share\CRP\GuestArtifactRepository and ensure Microsoft.Powershell.DSC.2.11.0.0.zip exists in the path. 
--  Go to the \\\\sofs\Share\CRP\PlatformImages folder. You should see the WindowsServer2012R2DatacenterEval.VHD image file. But you need to create an image that includes .NET 3.5 and save it here. For instructions on how to create that image, see [create a .NET 3.5 compatible base server image in your Azure Stack Platform Image Repository](azure-stack-add-image-pir.md#Create-an-image-of-WindowsServer2012R2-including-.NET-3.5). Then use the new image filename when you define the manifest file's **Filename** parameter.
+-  Go to the \\\\sofs\Share\CRP\PlatformImages folder. You should see the WindowsServer2012R2DatacenterEval.VHD image file. But you need to create an image that includes .NET 3.5 and save it here. For instructions on how to create that image, see [create a .NET 3.5 compatible base server image in your Azure Stack Platform Image Repository](https://azure.microsoft.com/en-us/documentation/articles/azure-stack-add-image-pir/#create-an-image-of-windowsserver2012r2-including-net-35). Then use the new image filename when you define the manifest file's **Filename** parameter.
  
 2 Login to the ClientVM: 
 
